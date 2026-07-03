@@ -60,7 +60,16 @@ Conclui-se que, mesmo utilizando um computador da biblioteca sem placa de vídeo
 
 Saída: 
 
+<p align="center">
+  <img src="figs/Resultados de Nowcasting U-RNN.png" alt="Resultados de Nowcasting U-RNN" width="80%">
+</p>
+
+
 ## **4. Resultados e Evidências** 
+
+<p align="center">
+  <img src="figs/URNN -Gráfico.png" alt="Resultados de Nowcasting U-RNN" width="80%">
+</p>
 
 As visualizações geradas pelo script test.py estão organizadas na pasta U-RNN/exp/20260316_130418_443889/figs/epoch@100/, sendo cada subpasta correspondente a um evento de teste (ex.: r100y_p0.5_d3h). Em cada caso, o arquivo water_depth_spatial_temporal.png apresenta a comparação entre a simulação de referência (MIKE+), as previsões do modelo U-RNN e o erro absoluto. 
 
