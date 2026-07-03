@@ -67,9 +67,7 @@ Saída:
 
 ## **4. Resultados e Evidências** 
 
-<p align="center">
-  <img src="figs/URNN -Gráfico.png" alt="Resultados de Nowcasting U-RNN" width="80%">
-</p>
+
 
 As visualizações geradas pelo script test.py estão organizadas na pasta U-RNN/exp/20260316_130418_443889/figs/epoch@100/, sendo cada subpasta correspondente a um evento de teste (ex.: r100y_p0.5_d3h). Em cada caso, o arquivo water_depth_spatial_temporal.png apresenta a comparação entre a simulação de referência (MIKE+), as previsões do modelo U-RNN e o erro absoluto. 
 
@@ -82,6 +80,10 @@ A terceira linha corresponde ao erro absoluto, definido como |y_pred − y_ref| 
 O comportamento espaço-temporal do evento, representado nos instantes de 1, 12, 24 e 36 minutos, evidencia inicialmente um sistema em fase de resposta à precipitação, ainda sem acumulações significativas. Na fase intermediária ocorre rápida expansão da inundação, com formação de zonas de acúmulo e intensificação das 
 
 profundidades. Na fase final, observa-se tendência de estabilização do campo de escoamento, com manutenção das principais áreas inundadas e menor variação temporal. 
+
+<p align="center">
+  <img src="figs/URNN -Gráfico.png" alt="Resultados de Nowcasting U-RNN" width="80%">
+</p>
 
 ## **Análise do Processo de Treinamento e Limitações de Hardware** 
 
