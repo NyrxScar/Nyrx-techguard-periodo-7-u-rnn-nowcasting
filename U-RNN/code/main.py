@@ -1043,7 +1043,6 @@ def RecordsPrepare(args, rank):
 
     return run, log_filename
 
-
 def update_opts(args, timestamp_save_path):
     """
     Update configuration options based on experiment timestamp.
