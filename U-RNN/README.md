@@ -61,7 +61,7 @@ Conclui-se que, mesmo utilizando um computador da biblioteca sem placa de vídeo
 Saída: 
 
 <p align="center">
-  <img src="https://lh3.googleusercontent.com/d/1BMjHUGriajEEkRwf5jSBugvlmpCVi5Qu" alt="Resultados de Nowcasting U-RNN" width="80%">
+  <img src="figs/Resultados de Nowcasting U-RNN.png" alt="Resultados de Nowcasting U-RNN" width="80%">
 </p>
 ## **4. Resultados e Evidências** 
 
